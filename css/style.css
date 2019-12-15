@@ -12,8 +12,8 @@ body{
 /* nav form{display: none!important;} */
 .navbar-expand-lg .navbar-nav
 {    
-    font-size: 13px;
-    margin-left: 190px;
+    font-size: 11px;
+    margin-left: 217px;
     font-weight: bold;
 
 }
@@ -50,8 +50,8 @@ body{
     background-size: cover;
     padding-top: 90px;
 }
-.slide .part2 p{color: #fff;padding-top: 40px;}
-.slide .part2 a{color: #fff; text-decoration: none;}
+.slide .part2 p{color: #fff;padding-top: 40px;    font-size: 13px;}
+.slide .part2 a{color: #fff; text-decoration: none;    font-size: 11px;}
 .slide .part2 .choca{    
     width: 170%;
     position: absolute;
