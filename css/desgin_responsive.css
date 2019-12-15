@@ -1,0 +1,48 @@
+@media (max-width: 475.98px){
+    .slide .part1 h1 {font-size: 21px;color: aqua;}
+    .slide .part1 hr {    width: 27%;    }
+    .control{    margin-top: 31px;    }
+    .text{text-align: center;}
+    .slide .part2 .choca {
+        width: 100%;
+        position: absolute;
+        bottom: 219px;
+        left: 5px;}
+    .slide .part2 .clock {
+        margin-left: 70px;
+        margin-bottom: 42px;
+        margin-top: 51px;}
+    .slide .part2 li {padding: 5px;}
+
+}
+@media (max-width: 575.98px){
+    .slide .part1 h1 {font-size: 21px; color: brown;}
+    .slide .part1 hr {    width: 27%;    }
+    .control{    margin-top: 31px;    }
+    .text{text-align: center;}
+    .slide .part2 .choca {
+        width: 100%;
+        position: absolute;
+        bottom: 219px;
+        left: 5px;}
+    .slide .part2 .clock {
+        margin-left: 70px;
+        margin-bottom: 42px;
+        margin-top: 51px;}
+    .slide .part2 li {padding: 5px;}
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .slide .part1 h1 {font-size: 14px; color:chartreuse;}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
