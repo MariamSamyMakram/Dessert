@@ -1,5 +1,5 @@
-@media (max-width: 475.98px){
-    .slide .part1 h1 {font-size: 21px;color: aqua;}
+@media (min-width: 320px) and (max-width:420px){
+    .slide .part1 h1 {font-size: 21px;color: chartreuse;}
     .slide .part1 hr {    width: 27%;    }
     .control{    margin-top: 31px;    }
     .text{text-align: center;}
@@ -15,31 +15,64 @@
     .slide .part2 li {padding: 5px;}
 
 }
-@media (max-width: 575.98px){
-    .slide .part1 h1 {font-size: 21px; color: brown;}
+@media (min-width: 421px) and (max-width: 575.98px){
+    .slide .part1 h1 {font-size: 21px; color: blue;}
     .slide .part1 hr {    width: 27%;    }
     .control{    margin-top: 31px;    }
     .text{text-align: center;}
     .slide .part2 .choca {
-        width: 100%;
+        width: 80%;
         position: absolute;
-        bottom: 219px;
-        left: 5px;}
+        bottom: 162px;
+        left: 50px;
+    }
     .slide .part2 .clock {
         margin-left: 70px;
         margin-bottom: 42px;
         margin-top: 51px;}
     .slide .part2 li {padding: 5px;}
+    .slide .part2 .clockdiv{padding-left: 70px;}
 
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .slide .part1 h1 {font-size: 14px; color:chartreuse;}
+    /* nav */
+    .navbar-expand-lg .navbar-nav {
+        font-size: 21px;
+        margin-left: 100px;}
+    /* slider */
+    .slide .part1 h1 {font-size: 38px;color: aquamarine;text-align: center; }
+    .slide .part2 .choca {
+        width: 75%;
+        position: absolute;
+        bottom: 382px;
+        left: 50px;
+    }
+    .slide .part2 .clockdiv{padding-left: 70px;}
+    .slide .part2 p{font-size: 28px;    padding-top: 121px;    }
+    .slide .part2 a{    font-size: 18px;}
+    .slide .part2 .clock {margin-left: 140px;}
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* nav */
+    .navbar-expand-lg .navbar-nav {font-size: 28px;}
+    /* slider */
+    .slide .part1 { padding: 0 0;}
+    .slide .part1 h1{color: chocolate;}
+    .slide .part2 .choca {
+        width: 70%;
+        bottom: 263px;
+        left: 64px;
+    }
 
+    .slide .part2 p {
+        padding-top: 135px;
+        font-size: 27px;}
+    .slide .part2 a{    font-size: 23px;    }
+    .slide .part2 .clock {margin-left: 206px;}
+    .slide .part2 .clockdiv{padding-left: 75px;}
 }
 
 /*Large devices (desktops, 992px and up)*/
