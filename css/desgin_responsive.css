@@ -42,6 +42,7 @@
         margin-left: 100px;}
     /* slider */
     .slide .part1 h1 {font-size: 38px;color: aquamarine;text-align: center; }
+    .text{text-align: center;}
     .slide .part2 .choca {
         width: 75%;
         position: absolute;
@@ -61,6 +62,7 @@
     /* slider */
     .slide .part1 { padding: 0 0;}
     .slide .part1 h1{color: chocolate;}
+    .text{text-align: center;}
     .slide .part2 .choca {
         width: 70%;
         bottom: 263px;
@@ -83,4 +85,6 @@
    .navbar-expand-lg .navbar-nav li {margin-right: 3px;}
    /* slider */
    .slide .part1 h1 {font-size: 27px;}
+   .slide .part2 .choca{    bottom: 186px;   }
+   
 }
